@@ -1,0 +1,34 @@
+.header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex; /* Use flexbox */
+    justify-content: space-around; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center items vertically */
+    height: 50px; /* Set a fixed height for the navigation bar */
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for list items */
+}
+
+.nav li {
+    margin: 0;
+}
+
+.nav li a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.nav li a:hover {
+    background-color: #555;
+    border-color: #fff;
+}
