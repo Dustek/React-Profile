@@ -1,6 +1,7 @@
 import React from 'react';
-import projectsData from './projectsData.json'; // Import project data from JSON file
+import projectsData from './projectsData'; // Import project data from JS file
 import Project from './Project'; // Import Project component
+
 
 const ProjectGallery = () => {
     return (
