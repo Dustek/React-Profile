@@ -5,9 +5,9 @@ const Home = () => {
         <section id="home">
             <div className="container">
                 <div className="content">
-                    <h1>Your Name</h1>
+                    <h1>Vytautas Venckunas</h1>
                     <img src="path/to/your/headshot.jpg" alt="Your Name" />
-                    <p>Your brand statement goes here...</p>
+                    <p>Learning to code</p>
                     <p>Some indication that this is your portfolio site...</p>
                 </div>
             </div>
