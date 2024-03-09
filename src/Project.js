@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import schedulerImage from './images/scheduler.jpg';
-import weatherImage from './images/weather.jpg'
+import weatherImage from './images/weather.jpg';
+import teamImage from './images/team.jpg';
+import quizImage from './images/quiz.jpg';
 
 
 import './style/project.css'
@@ -19,11 +21,13 @@ const Project = ({ project }) => {
 
     const imageMap = {
         "scheduler.jpg": schedulerImage,
-        "weather.jpg": weatherImage
+        "weather.jpg": weatherImage,
+        "team.jpg": teamImage,
+        "quiz.jpg": quizImage
     };
     return (
         <div className="project-item">
-            <h3>{project.title}</h3>
+            <h2>{project.title}</h2>
             <p className={`deployed-version ${isHovered ? 'show' : ''}`} onMouseEnter={handleMouseEnter}>
                 <a href={project.deployedLink}>Deployed Version</a>
             </p>

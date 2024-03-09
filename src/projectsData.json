@@ -12,5 +12,19 @@
         "deployedLink": "https://dustek.github.io/Weather-Dashboard/",
         "githubLink": "https://github.com/Dustek/Weather-Dashboard.git",
         "image": "weather.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Team profile generator",
+        "deployedLink": "https://dustek.github.io/Generated-team/",
+        "githubLink": "https://github.com/Dustek/Team-Profile-Generator.git",
+        "image": "team.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Coding Quiz",
+        "deployedLink": "https://dustek.github.io/Coding-Quiz/",
+        "githubLink": "https://github.com/Dustek/Coding-Quiz.git",
+        "image": "quiz.jpg"
     }
 ]
