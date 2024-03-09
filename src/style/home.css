@@ -1,0 +1,17 @@
+
+
+.centered-image {
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.text {
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+
+#content {
+    text-align: center; /* Center the text */
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    margin: 0 30%; /* Add 20% margin on the left and right */
+}
