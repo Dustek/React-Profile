@@ -8,9 +8,9 @@
     },
     {
         "id": 2,
-        "title": "Project 2",
-        "deployedLink": "https://example.com/project2",
-        "githubLink": "https://github.com/username/project2",
-        "image": "project2Image"
+        "title": "Weather Dashboard",
+        "deployedLink": "https://dustek.github.io/Weather-Dashboard/",
+        "githubLink": "https://github.com/Dustek/Weather-Dashboard.git",
+        "image": "weather.jpg"
     }
 ]

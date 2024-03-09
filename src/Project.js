@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import schedulerImage from './images/scheduler.jpg';
+import weatherImage from './images/weather.jpg'
+
 
 import './style/project.css'
 
@@ -16,18 +18,19 @@ const Project = ({ project }) => {
 
 
     const imageMap = {
-        "scheduler.jpg": schedulerImage
+        "scheduler.jpg": schedulerImage,
+        "weather.jpg": weatherImage
     };
     return (
         <div className="project-item">
             <h3>{project.title}</h3>
-            <p className={`deployed-version ${isHovered ? 'show' : ''}`}>
+            <p className={`deployed-version ${isHovered ? 'show' : ''}`} onMouseEnter={handleMouseEnter}>
                 <a href={project.deployedLink}>Deployed Version</a>
             </p>
-            <p className={`github-repository ${isHovered ? 'show' : ''}`}>
+            <p className={`github-repository ${isHovered ? 'show' : ''}`} onMouseEnter={handleMouseEnter}>
                 <a href={project.githubLink}>GitHub Repository</a>
             </p>
-            <div className="image-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            <div className={`image-container ${isHovered ? 'show' : ''}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 <img src={imageMap[project.image]} alt={project.title} className="project-image" />
             </div>
         </div>
