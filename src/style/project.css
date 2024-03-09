@@ -1,0 +1,52 @@
+/* Project.css */
+
+/* Style for the image container */
+.image-container {
+    position: relative;
+    width: 500px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for the image */
+.project-image {
+    width: 500px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.project-item {
+    position: relative; /* Ensure relative positioning for child elements */
+}
+
+/* Style for the deployed version link */
+.deployed-version {
+    position: relative; /* Position relative to parent .project-item */
+    top: 50px; /* Reset top property */
+    left: auto; /* Reset left property */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: opacity 0.3s;
+    opacity: 0; /* Initially hidden */
+    z-index: 1; /* Ensure links appear above the image */
+}
+
+/* Style for the GitHub repository link */
+.github-repository {
+    position: relative; /* Position relative to parent .project-item */
+    top: 50px; /* Reset top property */
+    left: auto; /* Reset left property */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: opacity 0.3s;
+    opacity: 0; /* Initially hidden */
+    z-index: 1; /* Ensure links appear above the image */
+}
+
+
+.deployed-version.show,
+.github-repository.show {
+    opacity: 1;
+}
