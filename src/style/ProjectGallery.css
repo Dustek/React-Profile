@@ -1,0 +1,10 @@
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust width for three projects per row with margin */
+    margin: 10px; /* Add margin between projects */
+}

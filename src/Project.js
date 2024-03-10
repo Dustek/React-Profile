@@ -3,6 +3,8 @@ import schedulerImage from './images/scheduler.jpg';
 import weatherImage from './images/weather.jpg';
 import teamImage from './images/team.jpg';
 import quizImage from './images/quiz.jpg';
+import readmeImage from './images/readme.jpg';
+import movieImage from './images/movie.jpg';
 
 
 import './style/project.css'
@@ -23,7 +25,9 @@ const Project = ({ project }) => {
         "scheduler.jpg": schedulerImage,
         "weather.jpg": weatherImage,
         "team.jpg": teamImage,
-        "quiz.jpg": quizImage
+        "quiz.jpg": quizImage,
+        "readme.jpg": readmeImage,
+        "movie.jpg": movieImage
     };
     return (
         <div className="project-item">

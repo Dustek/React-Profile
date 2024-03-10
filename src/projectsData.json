@@ -26,5 +26,20 @@
         "deployedLink": "https://dustek.github.io/Coding-Quiz/",
         "githubLink": "https://github.com/Dustek/Coding-Quiz.git",
         "image": "quiz.jpg"
+    },
+    {
+        "id": 5,
+        "title": "movie Picker",
+        "deployedLink": "https://dustek.github.io/Movie-Picker/",
+        "githubLink": "https://github.com/Dustek/Movie-Picker.git",
+        "image": "movie.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Readme Generator",
+        "githubLink": "https://github.com/Dustek/Readme-generator.git",
+        "image": "readme.jpg"
     }
+
+
 ]

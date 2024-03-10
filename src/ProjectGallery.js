@@ -10,7 +10,9 @@ const ProjectGallery = () => {
             <div className="container">
                 <div className="projects-grid">
                     {projectsData.map(project => (
-                        <Project key={project.id} project={project} />
+                        <div className="project-item" key={project.id}>
+                            <Project project={project} />
+                        </div>
                     ))}
                 </div>
             </div>
