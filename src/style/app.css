@@ -1,0 +1,4 @@
+.app-container {
+    background-color: #cbd9fd; /* Light blue background color */
+    min-height: 100vh; /* Ensure the container covers the full height of the viewport */
+  }

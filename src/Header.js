@@ -1,15 +1,15 @@
 import React from 'react';
-import styles from './style/Header.module.css'
+import './style/Header.css'; // Import the CSS file directly
 import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <header className={styles.header}>
-            <nav className={styles.nav}>
+        <header className="header"> {/* Apply the class name directly */}
+            <nav className="nav"> {/* Apply the class name directly */}
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/ProjectGallery">Projects</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/" className="link">Home</Link></li> {/* Apply the class name directly */}
+                    <li><Link to="/ProjectGallery" className="link">Projects</Link></li> {/* Apply the class name directly */}
+                    <li><Link to="/contact" className="link">Contact</Link></li> {/* Apply the class name directly */}
                 </ul>
             </nav>
         </header>

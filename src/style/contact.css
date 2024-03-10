@@ -1,0 +1,29 @@
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #cbd9fd; /* White background for container */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.contact-link {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #001730; /* Blue color */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+    margin-right: 10px; /* Add margin between links */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 40px 0;
+}
+.contact-heading {
+    text-align: center; /* Center the heading horizontally */
+  }
